@@ -1,0 +1,68 @@
+{
+  "course": {
+    "name": "AI Tijaarat Rabeha · AI Learning",
+    "totalDays": 40
+  },
+  "days": {
+    "1": {
+      "title": "Meet your new free assistant for business",
+      "tag": "Getting started",
+      "summary": "What Claude is, and how to sign up in 2 minutes."
+    },
+    "2": {
+      "title": "Unlock 6 hidden powers",
+      "tag": "/power-tour",
+      "summary": "Still only using the chat box? Same app, ten times more useful."
+    },
+    "3": {
+      "title": "Get answers that are ready to use",
+      "tag": "/prompt-recipe",
+      "summary": "A 4-part prompt recipe the pros use."
+    },
+    "4": {
+      "title": "Snap it. Say it. Sorted.",
+      "tag": "/snap-and-say",
+      "summary": "Use photos and voice — no typing at the till."
+    },
+    "5": {
+      "title": "Know your rivals in 10 minutes",
+      "tag": "/rival-check",
+      "summary": "Live prices and real links for competitor research."
+    },
+    "6": {
+      "title": "Never accept a meh answer again",
+      "tag": "/fix-it",
+      "summary": "Edit, retry, think harder."
+    },
+    "7": {
+      "title": "Stop explaining your business every time",
+      "tag": "/project-setup",
+      "summary": "Projects: your business HQ."
+    },
+    "8": {
+      "title": "Claude has skills you've never switched on",
+      "tag": "/first-skill",
+      "summary": "Built-in Word, Excel, PowerPoint and PDF skills."
+    },
+    "9": {
+      "title": "Teach Claude your job once",
+      "tag": "/make-a-skill",
+      "summary": "Build your own Skill."
+    },
+    "10": {
+      "title": "Claude can build things, not just write",
+      "tag": "/menu-board",
+      "summary": "How artifacts work."
+    },
+    "11": {
+      "title": "Build a tool your customers can use",
+      "tag": "/mini-tool",
+      "summary": "Publish, customize, and make it AI-powered."
+    },
+    "12": {
+      "title": "Three features, one finished catalogue",
+      "tag": "/catalogue",
+      "summary": "Combine a Project, a Skill and an Artifact."
+    }
+  }
+}

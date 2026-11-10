@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f2f1ed" />
+    <meta
+      name="description"
+      content="Learning Claude — short daily lessons for people who want Claude to actually help with work."
+    />
+    <title>Learning Claude · AI Tijaarat Rabeha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/app.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e8743b'/%3E%3Ctext x='32' y='43' font-family='Georgia' font-size='28' fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="paper-grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span class="brand-copy">
+          <span class="brand-name" id="brand-name">AI Tijaarat Rabeha</span>
+          <span class="brand-sub">Learning Claude</span>
+        </span>
+      </a>
+
+      <div class="topbar-tools">
+        <a class="nav-link" href="#/library">All lessons</a>
+        <label class="search" for="search">
+          <span class="sr-only">Search lessons</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <circle
+              cx="11"
+              cy="11"
+              r="7"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <path
+              d="M20 20l-3.5-3.5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <input
+            id="search"
+            type="search"
+            placeholder="Find a lesson…"
+            autocomplete="off"
+            enterkeyhint="search"
+          />
+          <kbd class="desk-only">/</kbd>
+        </label>
+        <span class="pill progress-pill" id="progress-chip" hidden>
+          <span id="progress-label">0/0</span>
+        </span>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="stage landing" id="landing" hidden>
+        <div class="hero">
+          <span class="pill" id="hero-pill">Day 1/40</span>
+          <h1 class="headline">
+            Learn Claude,<br />
+            <mark>one day</mark> at a time.
+          </h1>
+          <p class="lead" id="hero-lead"></p>
+          <div class="hero-actions">
+            <button type="button" class="btn primary" id="btn-start">
+              Begin with Day 1
+            </button>
+            <button
+              type="button"
+              class="btn secondary"
+              id="btn-continue"
+              hidden
+            >
+              Pick up where you left
+            </button>
+            <a class="btn secondary" href="#/library">See every lesson</a>
+          </div>
+
+          <button type="button" class="callout" id="latest" hidden></button>
+        </div>
+
+        <aside class="card ring map-card" aria-label="Course map">
+          <div class="card-head">
+            <h2 class="serif-title">Where you are</h2>
+            <span class="pill" id="journey-meta"></span>
+          </div>
+          <ol class="course-map" id="course-map"></ol>
+          <div class="map-legend" aria-hidden="true">
+            <span><i class="lg lg-new"></i>Ready</span>
+            <span><i class="lg lg-read"></i>Done</span>
+            <span><i class="lg lg-soon"></i>Not yet</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="stage explorer" id="explorer" hidden>
+        <aside class="card ring rail" aria-label="Lesson list">
+          <div class="card-head">
+            <h2 class="serif-title">Lessons</h2>
+            <span class="pill" id="rail-meta"></span>
+          </div>
+          <div class="filters" id="filters" hidden></div>
+          <ul class="doc-list" id="doc-list"></ul>
+        </aside>
+
+        <section class="reader" aria-label="Lesson reader">
+          <div class="gallery-wrap" id="gallery-wrap">
+            <div class="gallery-head">
+              <h2 class="headline small">Pick a <mark>day</mark></h2>
+              <p class="lead">
+                Tap any cover to open it.
+                <span class="desk-only">
+                  Or use <kbd>j</kbd> / <kbd>k</kbd> to move along.</span
+                >
+              </p>
+            </div>
+            <ul class="gallery" id="gallery"></ul>
+          </div>
+
+          <div class="card ring reader-frame" id="reader-frame" hidden>
+            <header class="reader-bar">
+              <div class="reader-titles">
+                <div class="reader-pills" id="reader-pills"></div>
+                <h2 id="reader-title"></h2>
+                <p class="reader-summary" id="reader-summary"></p>
+              </div>
+              <div class="reader-actions">
+                <button
+                  type="button"
+                  class="icon-btn"
+                  id="btn-back"
+                  title="All lessons"
+                  aria-label="Back to all lessons"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+                <button
+                  type="button"
+                  class="icon-btn"
+                  id="btn-prev"
+                  title="Previous"
+                  aria-label="Previous lesson"
+                >
+                  ←
+                </button>
+                <button
+                  type="button"
+                  class="icon-btn"
+                  id="btn-next"
+                  title="Next"
+                  aria-label="Next lesson"
+                >
+                  →
+                </button>
+                <button
+                  type="button"
+                  class="btn secondary compact"
+                  id="btn-mark"
+                >
+                  Mark done
+                </button>
+                <a
+                  class="btn primary compact"
+                  id="btn-open"
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  >Open PDF</a
+                >
+              </div>
+            </header>
+            <iframe id="pdf-frame" title="PDF viewer"></iframe>
+            <footer class="reader-foot">
+              <span id="reader-foot-label"></span>
+              <nav
+                class="dots"
+                id="reader-dots"
+                aria-label="Jump to lesson"
+              ></nav>
+            </footer>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./assets/js/app.js" type="module"></script>
+  </body>
+</html>

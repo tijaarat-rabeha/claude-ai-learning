@@ -1,0 +1,56 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyMuPDF (cover thumbnails + page counts)
+        run: pip install pymupdf
+
+      - name: Build manifest and covers from docs/
+        run: python3 scripts/generate-manifest.py
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/assets _site/docs
+          cp index.html manifest.json _site/
+          touch _site/.nojekyll
+          cp -R assets/css assets/js _site/assets/
+          [ -d assets/covers ] && cp -R assets/covers _site/assets/ || true
+          cp -R docs/. _site/docs/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
