@@ -63,6 +63,16 @@
       "title": "Three features, one finished catalogue",
       "tag": "/catalogue",
       "summary": "Combine a Project, a Skill and an Artifact."
+    },
+    "13": {
+      "title": "Week 2 challenge: build one thing",
+      "tag": "/my-build",
+      "summary": "Then show the group."
+    },
+    "14": {
+      "title": "What does Claude remember about you?",
+      "tag": "/remember-me",
+      "summary": "Memory, under your control."
     }
   }
 }

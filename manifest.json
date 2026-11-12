@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-10T13:25:18.973549+00:00",
+  "generatedAt": "2026-11-12T10:05:42.288911+00:00",
   "title": "Claude Days",
   "course": "AI Tijaarat Rabeha · AI Learning",
   "totalDays": 40,
   "tagline": "Short daily lessons for people who want Claude to actually help with the work.",
-  "count": 12,
+  "count": 14,
   "series": [
     "Learning Claude"
   ],
@@ -200,6 +200,38 @@
       "cover": "assets/covers/learning-claude-day-12.jpg",
       "bytes": 508026,
       "updatedAt": "2026-11-10T12:47:43.823495+00:00"
+    },
+    {
+      "id": "learning-claude-day-13",
+      "label": "Day 13",
+      "title": "Week 2 challenge: build one thing",
+      "tag": "/my-build",
+      "summary": "Then show the group.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 13.pdf",
+      "path": "docs/Learning Claude Day 13.pdf",
+      "day": 13,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-13.jpg",
+      "bytes": 473025,
+      "updatedAt": "2026-11-12T10:04:48.895136+00:00"
+    },
+    {
+      "id": "learning-claude-day-14",
+      "label": "Day 14",
+      "title": "What does Claude remember about you?",
+      "tag": "/remember-me",
+      "summary": "Memory, under your control.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 14.pdf",
+      "path": "docs/Learning Claude Day 14.pdf",
+      "day": 14,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-14.jpg",
+      "bytes": 527362,
+      "updatedAt": "2026-11-12T10:04:48.902067+00:00"
     }
   ]
 }
