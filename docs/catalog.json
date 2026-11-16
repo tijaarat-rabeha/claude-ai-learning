@@ -73,6 +73,21 @@
       "title": "What does Claude remember about you?",
       "tag": "/remember-me",
       "summary": "Memory, under your control."
+    },
+    "15": {
+      "title": "Make Claude sound like you",
+      "tag": "/brand-voice",
+      "summary": "Preferences + custom styles."
+    },
+    "16": {
+      "title": "4 hidden features most people miss",
+      "tag": "/show-me",
+      "summary": "Small switches, big wins."
+    },
+    "17": {
+      "title": "Big decision? Get a research report",
+      "tag": "/big-decision",
+      "summary": "Research mode. Paid."
     }
   }
 }

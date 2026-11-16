@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T10:05:42.288911+00:00",
+  "generatedAt": "2026-11-16T10:19:11.769035+00:00",
   "title": "Claude Days",
   "course": "AI Tijaarat Rabeha · AI Learning",
   "totalDays": 40,
   "tagline": "Short daily lessons for people who want Claude to actually help with the work.",
-  "count": 14,
+  "count": 17,
   "series": [
     "Learning Claude"
   ],
@@ -232,6 +232,54 @@
       "cover": "assets/covers/learning-claude-day-14.jpg",
       "bytes": 527362,
       "updatedAt": "2026-11-12T10:04:48.902067+00:00"
+    },
+    {
+      "id": "learning-claude-day-15",
+      "label": "Day 15",
+      "title": "Make Claude sound like you",
+      "tag": "/brand-voice",
+      "summary": "Preferences + custom styles.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 15.pdf",
+      "path": "docs/Learning Claude Day 15.pdf",
+      "day": 15,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-15.jpg",
+      "bytes": 507548,
+      "updatedAt": "2026-11-16T10:18:32.654069+00:00"
+    },
+    {
+      "id": "learning-claude-day-16",
+      "label": "Day 16",
+      "title": "4 hidden features most people miss",
+      "tag": "/show-me",
+      "summary": "Small switches, big wins.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 16.pdf",
+      "path": "docs/Learning Claude Day 16.pdf",
+      "day": 16,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-16.jpg",
+      "bytes": 511129,
+      "updatedAt": "2026-11-16T10:18:32.639540+00:00"
+    },
+    {
+      "id": "learning-claude-day-17",
+      "label": "Day 17",
+      "title": "Big decision? Get a research report",
+      "tag": "/big-decision",
+      "summary": "Research mode. Paid.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 17.pdf",
+      "path": "docs/Learning Claude Day 17.pdf",
+      "day": 17,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-17.jpg",
+      "bytes": 541045,
+      "updatedAt": "2026-11-16T10:18:32.646044+00:00"
     }
   ]
 }
