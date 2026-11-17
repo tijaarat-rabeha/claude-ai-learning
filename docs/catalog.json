@@ -88,6 +88,11 @@
       "title": "Big decision? Get a research report",
       "tag": "/big-decision",
       "summary": "Research mode. Paid."
+    },
+    "18": {
+      "title": "Upload your file. Get it back fixed",
+      "tag": "/fix-my-file",
+      "summary": "Claude edits your own files."
     }
   }
 }

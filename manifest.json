@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-16T10:19:11.769035+00:00",
+  "generatedAt": "2026-11-17T10:28:18.394772+00:00",
   "title": "Claude Days",
   "course": "AI Tijaarat Rabeha · AI Learning",
   "totalDays": 40,
   "tagline": "Short daily lessons for people who want Claude to actually help with the work.",
-  "count": 17,
+  "count": 18,
   "series": [
     "Learning Claude"
   ],
@@ -280,6 +280,22 @@
       "cover": "assets/covers/learning-claude-day-17.jpg",
       "bytes": 541045,
       "updatedAt": "2026-11-16T10:18:32.646044+00:00"
+    },
+    {
+      "id": "learning-claude-day-18",
+      "label": "Day 18",
+      "title": "Upload your file. Get it back fixed",
+      "tag": "/fix-my-file",
+      "summary": "Claude edits your own files.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 18.pdf",
+      "path": "docs/Learning Claude Day 18.pdf",
+      "day": 18,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-18.jpg",
+      "bytes": 528336,
+      "updatedAt": "2026-11-17T10:27:48.973351+00:00"
     }
   ]
 }
