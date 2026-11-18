@@ -93,6 +93,11 @@
       "title": "Upload your file. Get it back fixed",
       "tag": "/fix-my-file",
       "summary": "Claude edits your own files."
+    },
+    "19": {
+      "title": "Claude inside the apps you already use",
+      "tag": "/in-excel",
+      "summary": "Excel, PowerPoint, Chrome. Paid."
     }
   }
 }

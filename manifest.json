@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-17T10:28:18.394772+00:00",
+  "generatedAt": "2026-11-18T09:11:39.754438+00:00",
   "title": "Claude Days",
   "course": "AI Tijaarat Rabeha · AI Learning",
   "totalDays": 40,
   "tagline": "Short daily lessons for people who want Claude to actually help with the work.",
-  "count": 18,
+  "count": 19,
   "series": [
     "Learning Claude"
   ],
@@ -296,6 +296,22 @@
       "cover": "assets/covers/learning-claude-day-18.jpg",
       "bytes": 528336,
       "updatedAt": "2026-11-17T10:27:48.973351+00:00"
+    },
+    {
+      "id": "learning-claude-day-19",
+      "label": "Day 19",
+      "title": "Claude inside the apps you already use",
+      "tag": "/in-excel",
+      "summary": "Excel, PowerPoint, Chrome. Paid.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 19.pdf",
+      "path": "docs/Learning Claude Day 19.pdf",
+      "day": 19,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-19.jpg",
+      "bytes": 529086,
+      "updatedAt": "2026-11-18T09:11:13.076155+00:00"
     }
   ]
 }
