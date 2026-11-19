@@ -98,6 +98,11 @@
       "title": "Claude inside the apps you already use",
       "tag": "/in-excel",
       "summary": "Excel, PowerPoint, Chrome. Paid."
+    },
+    "20": {
+      "title": "Let Claude work while you cook",
+      "tag": "/weekly-job",
+      "summary": "Cowork + scheduled tasks. Paid."
     }
   }
 }
