@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-19T12:53:40.447822+00:00",
+  "generatedAt": "2026-11-20T10:31:26.954956+00:00",
   "title": "Claude Days",
   "course": "AI Tijaarat Rabeha · AI Learning",
   "totalDays": 40,
   "tagline": "Short daily lessons for people who want Claude to actually help with the work.",
-  "count": 20,
+  "count": 21,
   "series": [
     "Learning Claude"
   ],
@@ -328,6 +328,22 @@
       "cover": "assets/covers/learning-claude-day-20.jpg",
       "bytes": 537969,
       "updatedAt": "2026-11-19T12:53:02.521667+00:00"
+    },
+    {
+      "id": "learning-claude-day-21",
+      "label": "Day 21",
+      "title": "Plug Claude into your own apps",
+      "tag": "/connect-apps",
+      "summary": "Gmail, Calendar, Drive. Free plan.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 21.pdf",
+      "path": "docs/Learning Claude Day 21.pdf",
+      "day": 21,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-21.jpg",
+      "bytes": 519595,
+      "updatedAt": "2026-11-20T10:30:58.762021+00:00"
     }
   ]
 }
