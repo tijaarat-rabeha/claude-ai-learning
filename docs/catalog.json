@@ -108,6 +108,16 @@
       "title": "Plug Claude into your own apps",
       "tag": "/connect-apps",
       "summary": "Gmail, Calendar, Drive. Free plan."
+    },
+    "22": {
+      "title": "Find every customer you forgot to answer",
+      "tag": "/quote-chaser",
+      "summary": "Gmail superpowers."
+    },
+    "23": {
+      "title": "From email to meeting in one message",
+      "tag": "/book-it",
+      "summary": "Gmail + Calendar together."
     }
   }
 }

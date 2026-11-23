@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-20T10:31:26.954956+00:00",
+  "generatedAt": "2026-11-23T09:22:13.780704+00:00",
   "title": "Claude Days",
   "course": "AI Tijaarat Rabeha · AI Learning",
   "totalDays": 40,
   "tagline": "Short daily lessons for people who want Claude to actually help with the work.",
-  "count": 21,
+  "count": 23,
   "series": [
     "Learning Claude"
   ],
@@ -344,6 +344,38 @@
       "cover": "assets/covers/learning-claude-day-21.jpg",
       "bytes": 519595,
       "updatedAt": "2026-11-20T10:30:58.762021+00:00"
+    },
+    {
+      "id": "learning-claude-day-22",
+      "label": "Day 22",
+      "title": "Find every customer you forgot to answer",
+      "tag": "/quote-chaser",
+      "summary": "Gmail superpowers.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 22.pdf",
+      "path": "docs/Learning Claude Day 22.pdf",
+      "day": 22,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-22.jpg",
+      "bytes": 562128,
+      "updatedAt": "2026-11-23T09:21:38.368217+00:00"
+    },
+    {
+      "id": "learning-claude-day-23",
+      "label": "Day 23",
+      "title": "From email to meeting in one message",
+      "tag": "/book-it",
+      "summary": "Gmail + Calendar together.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 23.pdf",
+      "path": "docs/Learning Claude Day 23.pdf",
+      "day": 23,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-23.jpg",
+      "bytes": 549359,
+      "updatedAt": "2026-11-23T09:21:38.383900+00:00"
     }
   ]
 }
