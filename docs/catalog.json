@@ -118,6 +118,26 @@
       "title": "From email to meeting in one message",
       "tag": "/book-it",
       "summary": "Gmail + Calendar together."
+    },
+    "24": {
+      "title": "Ask your own files like a person",
+      "tag": "/ask-my-files",
+      "summary": "Google Drive, Docs and Sheets."
+    },
+    "25": {
+      "title": "Wake up to your day already planned",
+      "tag": "/morning-brief",
+      "summary": "Your first agent. Paid."
+    },
+    "26": {
+      "title": "An inbox that sorts itself",
+      "tag": "/inbox-helper",
+      "summary": "The Inbox Helper agent. Paid."
+    },
+    "27": {
+      "title": "Never chase a payment again",
+      "tag": "/payment-chaser",
+      "summary": "The Payment Chaser agent. Paid."
     }
   }
 }

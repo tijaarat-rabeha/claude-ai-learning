@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-23T09:22:13.780704+00:00",
+  "generatedAt": "2026-11-26T10:38:33.015979+00:00",
   "title": "Claude Days",
   "course": "AI Tijaarat Rabeha · AI Learning",
   "totalDays": 40,
   "tagline": "Short daily lessons for people who want Claude to actually help with the work.",
-  "count": 23,
+  "count": 27,
   "series": [
     "Learning Claude"
   ],
@@ -376,6 +376,70 @@
       "cover": "assets/covers/learning-claude-day-23.jpg",
       "bytes": 549359,
       "updatedAt": "2026-11-23T09:21:38.383900+00:00"
+    },
+    {
+      "id": "learning-claude-day-24",
+      "label": "Day 24",
+      "title": "Ask your own files like a person",
+      "tag": "/ask-my-files",
+      "summary": "Google Drive, Docs and Sheets.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 24.pdf",
+      "path": "docs/Learning Claude Day 24.pdf",
+      "day": 24,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-24.jpg",
+      "bytes": 554499,
+      "updatedAt": "2026-11-26T10:36:59.451570+00:00"
+    },
+    {
+      "id": "learning-claude-day-25",
+      "label": "Day 25",
+      "title": "Wake up to your day already planned",
+      "tag": "/morning-brief",
+      "summary": "Your first agent. Paid.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 25.pdf",
+      "path": "docs/Learning Claude Day 25.pdf",
+      "day": 25,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-25.jpg",
+      "bytes": 593289,
+      "updatedAt": "2026-11-26T10:36:59.472803+00:00"
+    },
+    {
+      "id": "learning-claude-day-26",
+      "label": "Day 26",
+      "title": "An inbox that sorts itself",
+      "tag": "/inbox-helper",
+      "summary": "The Inbox Helper agent. Paid.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 26.pdf",
+      "path": "docs/Learning Claude Day 26.pdf",
+      "day": 26,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-26.jpg",
+      "bytes": 565991,
+      "updatedAt": "2026-11-26T10:36:59.486100+00:00"
+    },
+    {
+      "id": "learning-claude-day-27",
+      "label": "Day 27",
+      "title": "Never chase a payment again",
+      "tag": "/payment-chaser",
+      "summary": "The Payment Chaser agent. Paid.",
+      "subtitle": "Learning Claude",
+      "filename": "Learning Claude Day 27.pdf",
+      "path": "docs/Learning Claude Day 27.pdf",
+      "day": 27,
+      "series": "Learning Claude",
+      "pages": 7,
+      "cover": "assets/covers/learning-claude-day-27.jpg",
+      "bytes": 578971,
+      "updatedAt": "2026-11-26T10:36:59.492481+00:00"
     }
   ]
 }
